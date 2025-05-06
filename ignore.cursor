@@ -1,0 +1,33 @@
+# Sensitive files
+.env
+**/credentials.*
+**/*.key
+**/*.pem
+
+# Logs and debugging
+/logs/*
+!logs/.gitkeep
+**/*.log
+**/*debug*
+
+# Cache and temporary files
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/*.pyo
+**/.DS_Store
+
+# Generated content
+/articles/*
+/output/*
+**/generated_content/*
+
+# Dependencies
+/venv/
+/env/
+/node_modules/
+
+# Debug artifacts
+**/debug_output/*
+**/*.debug
+**/temp_* 

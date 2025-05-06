@@ -1,0 +1,23 @@
+# Core AI/ML
+openai==1.77.0         # For GPT API
+spacy==3.8.5           # For NLP
+# langchain            # For LLM interactions
+# crewai               # For agent orchestration
+# litellm              # Exact version required by CrewAI
+
+# Web & Scraping
+beautifulsoup4==4.13.4 # For HTML parsing
+requests==2.32.3       # For HTTP requests
+newspaper4k==0.9.3.1   # For news article extraction and processing
+# playwright           # For dynamic content
+
+# Utilities
+python-dotenv==1.1.0   # For environment variables
+httpx==0.28.1          # For async HTTP
+# tenacity             # Updated to resolve dependency conflict
+
+# Testing & Development
+pytest==8.3.5          # For testing
+black==25.1.0          # For code formatting
+isort==6.0.1           # For sorting imports
+flake8==7.2.0          # For code linting
